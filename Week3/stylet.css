@@ -1,0 +1,75 @@
+.card {
+    width: 25em;
+    height: 30.5em;
+    background: #042a01dd;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 2em;
+  }
+  
+  .card .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.82em;
+    margin: 1em;
+  }
+  
+  .card .img {
+    width: 4.8em;
+    height: 4.8em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+  }
+  
+  .card .share {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card a:hover {
+    color: rgba(0, 0, 0, 0.619);
+  }
+  
+  .card button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgba(32, 147, 6, 0.718);
+    transition: .4s ease-in-out;
+  }
+  
+  .card button:hover {
+    background: rgba(0, 0, 0, 0.521);
+    color: rgb(254, 254, 254);
+    cursor: pointer;
+  }
+  body {
+    background-image: url(Bgm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
