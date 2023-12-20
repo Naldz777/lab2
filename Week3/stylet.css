@@ -15,7 +15,7 @@
     color: white;
     text-align: center;
     display: block;
-    font-size: 2em;
+    font-size: 4em;
   }
   
   .card .info {
@@ -23,16 +23,18 @@
     color: white;
     display: block;
     text-align: center;
-    font-size: 0.82em;
-    margin: 1em;
+    font-size: 1em;
+    margin: 1.5em;
   }
   
   .card .img {
-    width: 4.8em;
-    height: 4.8em;
+    width: 7.8em;
+    height: 7.8em;
     background: white;
-    border-radius: 15px;
+    border-radius: 9em;
     margin: auto;
+    background-image: url(prof.jpg);
+    background-size: cover;
   }
   
   .card .share {
@@ -43,29 +45,29 @@
   }
   
   .card a {
-    color: white;
-    transition: .4s ease-in-out;
+    color: rgb(255, 255, 255);
+    transition: .4s ease-in-out;  
   }
   
   .card a:hover {
-    color: rgba(0, 0, 0, 0.619);
+    color: rgb(0, 0, 0);
   }
   
   .card button {
-    padding: 0.8em 1.7em;
+    padding: 1em 2em;
     display: block;
     margin: auto;
-    border-radius: 25px;
+    border-radius: 35px;
     border: none;
     font-weight: bold;
-    background: #ffffff;
-    color: rgba(32, 147, 6, 0.718);
+    background: #000000;
+    color: rgb(255, 255, 255);
     transition: .4s ease-in-out;
   }
   
   .card button:hover {
-    background: rgba(0, 0, 0, 0.521);
-    color: rgb(254, 254, 254);
+    background: rgb(255, 255, 255);
+    color: rgb(9, 79, 2);
     cursor: pointer;
   }
   body {
