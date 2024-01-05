@@ -1,0 +1,77 @@
+.card {
+    width: 25em;
+    height: 30.5em;
+    background: #042a01dd;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 4em;
+  }
+  
+  .card .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    margin: 1.5em;
+  }
+  
+  .card .img {
+    width: 7.8em;
+    height: 7.8em;
+    background: white;
+    border-radius: 9em;
+    margin: auto;
+    background-image: url(prof.jpg);
+    background-size: cover;
+  }
+  
+  .card .share {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card a {
+    color: rgb(255, 255, 255);
+    transition: .4s ease-in-out;  
+  }
+  
+  .card a:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .card button {
+    padding: 1em 2em;
+    display: block;
+    margin: auto;
+    border-radius: 35px;
+    border: none;
+    font-weight: bold;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    transition: .4s ease-in-out;
+  }
+  
+  .card button:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(9, 79, 2);
+    cursor: pointer;
+  }
+  body {
+    background-image: url(Bgm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
