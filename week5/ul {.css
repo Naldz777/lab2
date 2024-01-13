@@ -1,5 +1,5 @@
  body{
-  background-color: rgb(26, 31, 25);
+  background-color: rgb(9, 56, 1);
  }
 
 #header{
@@ -36,6 +36,54 @@ nav{
   margin-left: -120px;
   margin-top: -10px;
 }
+
+.menu{
+  width: 90px;
+  position: fixed;
+  margin-left: 1250px;
+}
+
+.menu:hover{
+  background-color: rgba(255, 255, 255, 0.641);
+  border-radius: 100px;
+  transition: ease-in 0.5s;
+}
+
+.menu-box{
+  width: 80%;
+  background: rgba(8, 61, 3, 0.734);
+  position: absolute;
+  top:17%;
+  left: 10%;
+  padding: 50px;
+}
+
+.links a{
+  text-decoration: none;
+  color:white;
+  display: block;
+  width: fit-content;
+  margin: 30px, 0;
+  font-size: 36;
+}
+
+.links a::after{
+  content: '';
+  width: 40px;
+  height: 5px;
+  background-color: rgb(23, 168, 9);
+  display: none;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.links a:hover{
+  font-weight: 700;
+}
+.links a:hover::after{
+  display: inline-block;
+}
+
+
 
 .logo:hover{
   transform: scale(1.5);
@@ -81,7 +129,6 @@ nav ul li a:hover::after{
   color: white;
   z-index: -100;
   margin-top: -150px;
-  background-color: rgb(26, 31, 25);
   overflow: hidden;
   border-radius: 15px;
   padding-left: 10px;

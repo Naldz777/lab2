@@ -1,6 +1,7 @@
 <html>
 <head>
 <title> David Naldo: Profile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="ul {.css">
 </head>
 
@@ -8,7 +9,7 @@
 <div id = "header">
 	<div class = "container">
 		<nav>
-			<a href = "wafu.html"><img src = "logo.png" class = "logo" title = "Cick for Kiss of heaver"></a>
+			<a href = "wafu.html"><img src = "logo.png" class = "logo" title = "Click for Kiss of heaver"></a>
 			<img src = "1.png" class = "name">
 			<ul>
 				<li><a href=>Home </a></li>
@@ -16,8 +17,23 @@
 				<li><a href=>Services </a></li>
 				<li><a href=>Portfolio </a></li>
 				<li><a href=>Contact</a></li>
+		</ul>
 	</div>
-
+		<div>
+		<img src = "bar.png" class ="menu">
+		<div class = "menu-box" id = "menu-box">
+			<div class = "right-L">
+				<img src ="close.png">
+			</div>
+			<div class = "links">
+				<a href ="#">Home</a>
+				<a href ="#">About</a>
+				<a href ="#">Service</a>
+				<a href ="#">Contact</a>
+			</div>
+		</div>
+	</div>
+</div>
 <div class = "vid_container">
 <video autoplay muted class = "myvideo">
 	<source src = "Show.mp4" type = "video/mp4">
@@ -45,6 +61,10 @@ function increaseFontSizeBy1px() {
     currentSize = parseFloat(style);
     txt.style.fontSize = (currentSize + 1) + 'px';
 }
+
+var menu = document.getElementById("menu-box");
+
+
 </script>
 
 </body>
