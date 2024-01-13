@@ -114,3 +114,17 @@ z-index: -1;
     height: 100%;
   }
 }
+
+.sizer{
+  background-color: rgba(8, 61, 3, 0.734);
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 2px;
+}
+.sizer:hover{
+  background-color:rgb(23, 168, 9) ;
+  transition:ease-in-out 0.25s ;
+}
