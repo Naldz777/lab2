@@ -39,7 +39,12 @@
 <p id="info"></p>
 </div>
 <script>
-
+function increaseFontSizeBy1px() {
+    txt = document.getElementById('info');
+    style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+    currentSize = parseFloat(style);
+    txt.style.fontSize = (currentSize + 1) + 'px';
+}
 </script>
 
 </body>
