@@ -4,103 +4,73 @@
 <link rel="stylesheet" href="ul {.css">
 </head>
 
-<body style = "background-image: url('https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg'); color:white;
- background-repeat: no-repeat; background-size: cover; text-align: center">
+<body>
+<div id = "header">
+	<div class = "container">
+		<nav>
+			<a href = "wafu.html"><img src = "logo.png" class = "logo" title = "Cick for Kiss of heaver"></a>
+			<img src = "1.png" class = "name">
+			<ul>
+				<li><a href=>Home </a></li>
+				<li><a href="#AM">About </a></li>
+				<li><a href=>Gallery </a></li>
+				<li><a href=>Portfolio </a></li>
+				<li><a href=>Contact</a></li>
+			</ul>
+			<img src = "bar.png" class ="menu" onclick ="openmenu()">
+			<div class = "menu-box" id = "menu">
+				<div class = "right-L">
+					<img src ="close.png" onclick = "closemenu()" class = "close">
+				</div>
+				<div class = "links">
+					<a href ="#">Home</a><br>
+					<a href ="#AM">About</a><br>
+					<a href ="#">Service</a><br>
+					<a href ="#">Portfolio</a><br>
+					<a href ="#">Contact</a>
+				</div>	
+			</div>
+		</nav>
+	</div>		
+<div class = "vid_container">
+<video autoplay muted class = "myvideo">
+	<source src = "Show.mp4" type = "video/mp4">
+</video>
 </div>
-<div class="button-container" >
-  <button class="button">
-    <svg
-      class="icon"
-      stroke="currentColor"
-      fill="currentColor"
-      stroke-width="0"
-      viewBox="0 0 1024 1024"
-      height="1em"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"
-      ></path>
-    </svg>
-  </button>
-  <button class="button">
-    <svg
-      class="icon"
-      stroke="currentColor"
-      fill="none"
-      stroke-width="2"
-      viewBox="0 0 24 24"
-      aria-hidden="true"
-      height="1em"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-      ></path>
-    </svg>
-  </button>
-  <button class="button">
-    <svg
-      class="icon"
-      stroke="currentColor"
-      fill="currentColor"
-      stroke-width="0"
-      viewBox="0 0 24 24"
-      height="1em"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M12 2.5a5.5 5.5 0 0 1 3.096 10.047 9.005 9.005 0 0 1 5.9 8.181.75.75 0 1 1-1.499.044 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.5-.045 9.005 9.005 0 0 1 5.9-8.18A5.5 5.5 0 0 1 12 2.5ZM8 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z"
-      ></path>
-    </svg>
-  </button>
+<div id ="AM">
+<h1>About me</h1>
+	<div id = "info">
+	<p> Name: David Naldo
+	<br>age: 21 <br>Date of birth: July 17 2003<br>
+	Hobbies: Video Games, Cooking, Singing
+	</p>
+	<p> Kindergarten: Binan Faith Christian School<br>
+	Elementary: Sto.Tomas Elementary School<br>
+	Highschool: Binan Secondary School of Applied Academics<br>
+	Senior Highschool: Binan Integrated National Highschool<br>
+	Course: Bachelors in Computer Science Specialization in Cybersecurity and Forensics<br>
+<input type="button" value = "Enhance font" onclick="increaseFontSizeBy1px()" class = "Sizer">
+<p id="info"></p>
+</div>
+<script>
+function increaseFontSizeBy1px() {
+    txt = document.getElementById('info');
+    style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+    currentSize = parseFloat(style);
+    txt.style.fontSize = (currentSize + 1) + 'px';
+}
 
-  <button class="button">
-    <svg
-      class="icon"
-      stroke="currentColor"
-      fill="none"
-      stroke-width="2"
-      viewBox="0 0 24 24"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      height="1em"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <circle cx="9" cy="21" r="1"></circle>
-      <circle cx="20" cy="21" r="1"></circle>
-      <path
-        d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
-      ></path>
-    </svg>
-  </button>
-</div>
-<div class="container">
-  <img src="Pogi.jpg" alt="Daddy" class="image" style="width:100%">
-  <div class="middle">
-    <div class="text">David Naldo</div>
-  </div>
-</div>
-<h1 style = "font-size:72px;">Profile</h1>
-<h2>  Basic Infos</h2>
+var menu = document.getElementById("menu");
+function openmenu(){
+	menu.style.top = "17%";
+	menu.style.display ="inline-block";
+}
+function closemenu(){
+	menu.style.top = "-100vh";
+}
 
-<p style = "font-size 32px;">Name: David Naldo 
-<br>
-Gender: Male 
-<br>
-Age: 20 
-<br>
-Birthday: July 17, 2003
-<br>
-Civil status: Single   
-<br>
-<strong> About Me: Witness the beauty of man.<strong>
+</script>
 
 </body>
+
 </html>
