@@ -1,7 +1,6 @@
 <html>
 <head>
 <title> David Naldo: Profile</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="ul {.css">
 </head>
 
@@ -9,31 +8,30 @@
 <div id = "header">
 	<div class = "container">
 		<nav>
-			<a href = "wafu.html"><img src = "logo.png" class = "logo" title = "Click for Kiss of heaver"></a>
+			<a href = "wafu.html"><img src = "logo.png" class = "logo" title = "Cick for Kiss of heaver"></a>
 			<img src = "1.png" class = "name">
 			<ul>
 				<li><a href=>Home </a></li>
 				<li><a href="#AM">About </a></li>
-				<li><a href=>Services </a></li>
+				<li><a href=>Gallery </a></li>
 				<li><a href=>Portfolio </a></li>
 				<li><a href=>Contact</a></li>
-		</ul>
-	</div>
-		<div>
-		<img src = "bar.png" class ="menu">
-		<div class = "menu-box" id = "menu-box">
-			<div class = "right-L">
-				<img src ="close.png">
+			</ul>
+			<img src = "bar.png" class ="menu" onclick ="openmenu()">
+			<div class = "menu-box" id = "menu">
+				<div class = "right-L">
+					<img src ="close.png" onclick = "closemenu()" class = "close">
+				</div>
+				<div class = "links">
+					<a href ="#">Home</a><br>
+					<a href ="#AM">About</a><br>
+					<a href ="#">Service</a><br>
+					<a href ="#">Portfolio</a><br>
+					<a href ="#">Contact</a>
+				</div>	
 			</div>
-			<div class = "links">
-				<a href ="#">Home</a>
-				<a href ="#">About</a>
-				<a href ="#">Service</a>
-				<a href ="#">Contact</a>
-			</div>
-		</div>
-	</div>
-</div>
+		</nav>
+	</div>		
 <div class = "vid_container">
 <video autoplay muted class = "myvideo">
 	<source src = "Show.mp4" type = "video/mp4">
@@ -62,12 +60,13 @@ function increaseFontSizeBy1px() {
     txt.style.fontSize = (currentSize + 1) + 'px';
 }
 
-var menu = document.getElementById("menu-box");
-function closem{
-	menu.style.top = "-100vh";
+var menu = document.getElementById("menu");
+function openmenu(){
+	menu.style.top = "17%";
+	menu.style.display ="inline-block";
 }
-function openm{
-	menu.style.top = "17%"
+function closemenu(){
+	menu.style.top = "-100vh";
 }
 
 </script>
