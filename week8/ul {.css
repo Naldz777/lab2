@@ -1,0 +1,237 @@
+ body{
+  background-color: rgb(9, 56, 1);
+ }
+
+#header{
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.container{
+  padding:10px 10%;
+  border: 20px;
+  margin: -7px;
+  margin-top: -30px;
+}
+
+.container:hover{
+  padding:10px 10%;
+  background-color: rgba(8, 61, 3, 0.734);
+  overflow: hidden;
+  margin: -7px;
+  margin-top: -30px;
+  height: 130px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo{
+  width: 90px;
+  margin-left: -120px;
+  margin-top: -10px;
+}
+
+.menu{
+  width: 90px;
+  position: fixed;
+  margin-left: 1250px;
+}
+
+.menu:hover{
+  background-color: rgba(255, 255, 255, 0.641);
+  border-radius: 100px;
+  transition: ease-in 0.25s;
+  cursor: pointer;
+}
+
+.menu-box{
+  width: 10%;
+  height: 30%;
+  background: rgb(8, 61, 3);
+  position: fixed;
+  top:17%;
+  right: 5%;
+  padding: 50px;
+  transition: top 1s;
+  display: none;
+}
+
+.links a{
+  text-decoration: none;
+  color:white;
+  display: block;
+  width: fit-content;
+  margin: 30px, 0;
+  font-size: 28;
+}
+
+.links a::after{
+  content: '';
+  width: 30px;
+  height: 5px;
+  background-color: rgb(23, 168, 9);
+  display: none;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.links a:hover{
+  font-weight: 700;
+}
+.links a:hover::after{
+  display: inline-block;
+}
+
+.close{
+  width: 40px;
+  cursor: pointer;
+}
+
+.right-L{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.logo:hover{
+  transform: scale(1.5);
+}
+
+.name{
+  width: 170px;
+  margin-left: -180px;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 20px 80px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: -150px;
+  position: relative;
+}
+
+nav ul li a::after{
+  content:'';
+  width:0%;
+  height: 4px;
+  background: rgb(23, 168, 9);
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li a:hover::after{
+  width: 100%;
+}
+
+#fill{
+  color: white;
+  z-index: -2;
+}
+#AM{
+  color: white;
+  z-index: -100;
+  margin-top: -150px;
+  overflow: hidden;
+  margin-left: -20px;
+  border-radius: 15px;
+  padding-left: 30px;
+  position: relative; 
+  background-image: url('About me.gif');
+  background-repeat:no-repeat;
+  background-size: cover;
+  border-color: black;
+  border-width: 5px;
+  width: 120%
+}
+
+.AM_pic{
+  position: absolute;
+  width: 20%;
+  margin-left: 57%;
+  border-radius: 40px;
+  border: 10px solid rgb(4, 33, 1);
+  box-shadow: 10px;
+  margin-top:80px;
+  display: block;
+}
+
+
+.AM_pic:hover{
+  background-color:green
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#info{
+  float: left;
+  padding-top: 80px;
+  font-size: 30px;
+  position: static;
+}
+
+.vid_container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.myvideo {
+position:absolute;
+right: 0;
+bottom: 0;
+z-index: -1;
+}
+
+@media(min-aspect-ratio:16/9){
+  .myvideo{
+    width:100%;
+    height: auto;
+  }
+}
+@media(max-aspect-ratio:16/9) {
+  .myvideo{
+    width: auto;
+    height: 100%;
+  }
+}
+
+.sizer{
+  background-color: rgba(8, 61, 3, 0.734);
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 4px;
+}
+.sizer:hover{
+  background-color:rgb(23, 168, 9) ;
+  transition:ease-in-out 0.25s ;
+  cursor: pointer;
+  color: black;
+}
