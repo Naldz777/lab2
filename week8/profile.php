@@ -63,8 +63,9 @@
 		</div>
 	</div>
 <?php
-echo "letsgo";
-print "letsgo";
+function myMessage() {
+  echo "Naldo";
+}
 ?>	
 <script>
 function increaseFontSizeBy1px() {
