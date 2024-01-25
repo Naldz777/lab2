@@ -63,7 +63,8 @@
 		</div>
 	</div>
 <?php
-$lol = "Available";
+echo "letsgo";
+print "letsgo";
 ?>	
 <script>
 function increaseFontSizeBy1px() {
