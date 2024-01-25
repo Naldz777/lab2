@@ -33,7 +33,7 @@
 		</nav>
 	</div>
 <?php
-echo "David Naldo"
+echo //David Naldo
 ?>	
 <div class = "vid_container">
 <video autoplay muted class = "myvideo">
