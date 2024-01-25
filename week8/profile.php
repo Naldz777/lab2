@@ -32,9 +32,6 @@
 			</div>
 		</nav>
 	</div>
-<?php
-echo //David Naldo
-?>	
 <div class = "vid_container">
 <video autoplay muted class = "myvideo">
 	<source src = "Show.mp4" type = "video/mp4">
@@ -65,6 +62,9 @@ echo //David Naldo
 		<p id="info"></p>
 		</div>
 	</div>
+<?php
+$lol = "Available";
+?>	
 <script>
 function increaseFontSizeBy1px() {
     txt = document.getElementById('info');
