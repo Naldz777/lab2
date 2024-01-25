@@ -8,7 +8,7 @@
 <div id = "header">
 	<div class = "container">
 		<nav>
-			<a href = "wafu.html"><img src = "logo.png" class = "logo" title = "Click for Kiss of heaver" onclick ="setTimeout(Pogi, 3000);"></a>
+			<a href = "wafu.php"><img src = "logo.png" class = "logo" title = "Click for Kiss of heaver" onclick ="Pogi()"></a>
 			<img src = "1.png" class = "name">
 			<ul>
 				<li><a href=>Home </a></li>
@@ -31,7 +31,10 @@
 				</div>	
 			</div>
 		</nav>
-	</div>		
+	</div>
+<?php
+echo "David Naldo"
+?>	
 <div class = "vid_container">
 <video autoplay muted class = "myvideo">
 	<source src = "Show.mp4" type = "video/mp4">
