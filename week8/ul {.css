@@ -149,20 +149,20 @@ nav ul li a:hover::after{
   border-radius: 15px;
   padding-left: 30px;
   position: relative; 
-  background-image: url('About me.gif');
+  background-image: url('aboutme.png');
   background-repeat:no-repeat;
-  background-size: cover;
+  background-size: 100%;
   border-color: black;
   border-width: 5px;
   width: 120%
 }
 
 .AM_pic{
-  position: absolute;
-  width: 20%;
-  margin-left: 57%;
-  border-radius: 40px;
-  border: 10px solid rgb(4, 33, 1);
+  position: relative;
+  width: 30%;
+  margin: auto;
+  border-radius: 100px;
+  border: 5px solid rgb(8, 61, 3);
   box-shadow: 10px;
   margin-top:80px;
   display: block;
@@ -174,7 +174,7 @@ nav ul li a:hover::after{
 }
 
 .text {
-  color: white;
+  color: lightgrey;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -183,6 +183,31 @@ nav ul li a:hover::after{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+#info_box {
+  background-color: rgba(4, 33, 1, 0.636);
+  border-radius: 13%;
+  width: 400px;
+  border: 10px solid rgb(8, 61, 3);
+  float: left;
+  padding: 50px;
+  padding-top: 0px;
+  margin: 20px;
+  box-shadow: 10px 5px 5px rgba(1, 6, 0, 0.667);
+}
+
+#info_box1 {
+  background-color: rgba(4, 33, 1, 0.636);
+  float: left;
+  height:100%;
+  border-radius: 13%;
+  width: 750px;
+  border: 10px solid rgb(8, 61, 3);
+  padding: 50px;
+  padding-bottom: 0px;
+  margin: 20px;
+  box-shadow: 10px 5px 5px rgba(1, 6, 0, 0.667);
 }
 
 #info{
@@ -228,6 +253,7 @@ z-index: -1;
   border-radius: 10px;
   margin-top: 20px;
   box-shadow: 4px;
+  
 }
 .sizer:hover{
   background-color:rgb(23, 168, 9) ;

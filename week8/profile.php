@@ -39,27 +39,31 @@
 </div>
 	<div id ="AM">
 		<div class = "content">
-		<img src = "AM pic.png" class = "AM_pic">
 		<div id = "info">	
-		<h1> About me</h1>
-		<p>Bata pa lamang si David kinailangan niya nang magbanat ng buto para sa kanyang <br> pamilya. 
-		Sa kabila ng kaniyang paghihirap nanatili ang kaniyang pagiging matatag <br> sa buhay Charot...
-		David is an aspiring data analyst, he is currently studying <br> Computer Science Specializing in Cybersecurity
-		and Forensics.
-		</p>
-		<h1>Background</h1>		
-		<p> Name: David Naldo
-		<br>age: 20 <br>Date of birth: July 17, 2003<br>
-		<span onclick = "this.innerHTML = 'Civil status: Single and ready to Mingle'">Civil status: Single</span><br>
-		Hobbies: Video Games, Cooking, Singing
-		</p>
-		<p> Kindergarten: Binan Faith Christian School<br>
-		Elementary: Sto.Tomas Elementary School<br>
-		Highschool: Binan Secondary School of Applied Academics<br>
-		Senior Highschool: Binan Integrated National Highschool<br>
-		Course: Bachelors in Computer Science Specialization in Cybersecurity and Forensics<br>
-		<input type="button" value = "Enhance font" onclick="increaseFontSizeBy1px()" class = "Sizer">
-		<p id="info"></p>
+			<div id = "info_box">
+				<img src = "AM pic.png" class = "AM_pic">
+				<h1> About me</h1>
+				<p>Bata pa lamang si David kinailangan niya nang magbanat ng buto para sa kanyang <br> pamilya. 
+				Sa kabila ng kaniyang paghihirap nanatili ang kaniyang pagiging matatag <br> sa buhay Charot...
+				David is an aspiring data analyst, he is currently studying <br> Computer Science Specializing in Cybersecurity
+				and Forensics.
+				</p>
+			</div>
+			<div id="info_box1">
+				<h1>Background</h1>		
+				<p> Name: David Naldo
+				<br>age: 20 <br>Date of birth: July 17, 2003<br>
+				<span onclick = "this.innerHTML = 'Civil status: Single and ready to Mingle'">Civil status: Single</span><br>
+				hobby: Singing, cooking, Video-games <br>
+				<p> Kindergarten: Binan Faith Christian School<br>
+				Elementary: Sto.Tomas Elementary School<br>
+				Highschool: Binan Secondary School of Applied Academics<br>
+				Senior Highschool: Binan Integrated National Highschool<br>
+				Course: Bachelors in Computer Science Specialization in Cybersecurity and Forensics<br>
+				<input type="button" value = "Enhance font" onclick="increaseFontSizeBy1px()" class = "Sizer">
+				<p id="info"></p>
+				</p>
+			</div>
 		</div>
 	</div>
 </div>
