@@ -54,6 +54,7 @@ nav{
   width: 10%;
   height: 30%;
   background: rgb(8, 61, 3);
+  z-index: 1;
   position: fixed;
   top:17%;
   right: 5%;
@@ -212,15 +213,208 @@ nav ul li a:hover::after{
 
 #info{
   float: left;
-  padding-top: 80px;
+  padding-top: 60px;
+  padding-bottom: 80px;
   font-size: 30px;
   position: static;
+}
+
+.fav_head{
+  font-size: 30px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-left: 35%;
+  margin-top: -9px;
+  margin-right: 38%;
+  border: 7px solid rgb(8, 61, 3);
+  border-top: 0px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-shadow: 2px 2px 4px black;
+}
+#sub_fav{
+  font-size: 20px;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  width: 150px;
+  position: absolute;
+  height: 40px;
+  text-align: center;
+  border: 7px solid rgb(4, 35, 1);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top: 0px;
+  text-shadow: 2px 2px 4px black;
+  margin-top: -10.35%;
+  background-color: rgb(8, 61, 3);
+  box-shadow: 5px 5px 5px 0px black;
+}
+#sub_fav:hover{
+  background-color: rgb(23, 168, 9);
+  border: 7px solid rgb(23, 168, 9);
+  color:black;
+  box-shadow: 0 0 5px rgb(18, 190, 6),
+  0 0 20px rgb(18, 190, 6),
+  0 0 60px rgb(18, 190, 6),
+  0 0 120px rgb(18, 190, 6);
+  transition: ease-in 0.1s;
+  cursor: pointer;
+}
+#sub_fav1{
+  font-size: 20px;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  width: 150px;
+  position: absolute;
+  margin-left: 200px;
+  height: 40px;
+  text-align: center;
+  border: 7px solid rgb(4, 35, 1);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top: 0px;
+  text-shadow: 2px 2px 4px black;
+  margin-top: -10.35%;
+  background-color: rgb(8, 61, 3);
+  box-shadow: 5px 5px 5px 0px black;
+}
+#sub_fav1:hover{
+  background-color: rgb(23, 168, 9);
+  border: 7px solid rgb(23, 168, 9);
+  color:black;
+  box-shadow: 0 0 5px rgb(18, 190, 6),
+  0 0 20px rgb(18, 190, 6),
+  0 0 60px rgb(18, 190, 6),
+  0 0 120px rgb(18, 190, 6);
+  transition: ease-in 0.1s;
+  cursor: pointer;
+}
+
+#sub_fav2{
+  font-size: 20px;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  width: 150px;
+  position: absolute;
+  margin-left: 62.1%;
+  height: 40px;
+  text-align: center;
+  border: 7px solid rgb(4, 35, 1);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top: 0px;
+  text-shadow: 2px 2px 4px black;
+  margin-top: -10.35%;
+  background-color: rgb(8, 61, 3);
+  box-shadow: 5px 5px 5px 0px black;
+}
+#sub_fav2:hover{
+  background-color: rgb(23, 168, 9);
+  border: 7px solid rgb(23, 168, 9);
+  color:black;
+  box-shadow: 0 0 5px rgb(18, 190, 6),
+  0 0 20px rgb(18, 190, 6),
+  0 0 60px rgb(18, 190, 6),
+  0 0 120px rgb(18, 190, 6);
+  transition: ease-in 0.1s;
+  cursor: pointer;
+}
+
+#sub_fav3{
+  font-size: 20px;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  width: 150px;
+  position: absolute;
+  margin-left: 75.3%;
+  height: 40px;
+  text-align: center;
+  border: 7px solid rgb(4, 35, 1);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top: 0px;
+  text-shadow: 2px 2px 4px black;
+  margin-top: -10.35%;
+  background-color: rgb(8, 61, 3);
+  box-shadow: 5px 5px 5px 0px black;
+}
+#sub_fav3:hover{
+  background-color: rgb(23, 168, 9);
+  border: 7px solid rgb(23, 168, 9);
+  color:black;
+  box-shadow: 0 0 5px rgb(18, 190, 6),
+  0 0 20px rgb(18, 190, 6),
+  0 0 60px rgb(18, 190, 6),
+  0 0 120px rgb(18, 190, 6);
+  transition: ease-in 0.1s;
+  cursor: pointer;
+}
+
+.fav_head:hover{
+  background-color: rgba(8, 61, 3, 0.61);
+  transition: ease-in 0.2s;
+}
+
+.Favorites{
+  color: white;
+  overflow: hidden;
+  margin-left: -20px;
+  padding: 30px;
+  background-image: url('Favotire.png');
+  background-repeat:no-repeat;
+  background-size: 100%;
+  border-color: black;
+  border-width: 5px;
+  width: 120%;
+}
+
+.My_Favorites{
+  background-color: rgba(4, 33, 1, 0.636);
+  float: left;
+  height:100%;
+  border-radius: 3%;
+  width: 1370px;
+  border: 10px solid rgb(8, 61, 3);
+  padding-left: 30px;
+  padding-bottom: 0px;
+  margin: 20px;
+  box-shadow: 10px 5px 5px rgba(1, 6, 0, 0.667);
+}
+
+.Mov_img{
+  width: 80%;
+  position: absolute;
+  margin-left: 40px;
+}
+
+.Gam_img{
+  width: 80%;
+  position: absolute;
+  margin-left: 40px;
+}
+
+.Food_img{
+  width: 80%;
+  position: absolute;
+  margin-left: 40px;
+}
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
 }
 
 .vid_container{
   width: 100%;
   height: 100%;
-  display: flex;
+  display: absolute;
   align-items: center;
   justify-content: center;
 }
