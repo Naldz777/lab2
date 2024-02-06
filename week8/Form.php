@@ -57,10 +57,10 @@ echo $gender;
 ?>
 
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "myDB";
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//$dbname = "myDB";
 
 $servername = "localhost";
 $username = "webprogmi222_sf221";
